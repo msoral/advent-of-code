@@ -1,5 +1,5 @@
 #[tracing::instrument]
-pub fn process(_input: &str) -> anyhow::Result<String> {
+pub fn process(input: &str) -> anyhow::Result<String> {
     todo!("day 01 - part 2");
 }
 
@@ -10,7 +10,7 @@ mod tests {
     #[test]
     fn test_process() -> anyhow::Result<()> {
         todo!("haven't built test yet");
-        let input = "";
+        let input = indoc::indoc!(r#""#);
         assert_eq!("", process(input)?);
         Ok(())
     }
